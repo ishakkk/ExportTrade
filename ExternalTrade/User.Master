@@ -1,0 +1,538 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="User.master.cs" Inherits="ExternalTrade.User" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Niğtaş Pazarlama Departmanı</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+    <meta content="Coderthemes" name="author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- App favicon -->
+   <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- Plugins css -->
+        <link href="assets/libs/bootstrap-tagsinput/bootstrap-tagsinput.css" rel="stylesheet" />
+        <link href="assets/libs/switchery/switchery.min.css" rel="stylesheet" type="text/css" />
+
+        <link href="assets/libs/multiselect/multi-select.css"  rel="stylesheet" type="text/css" />
+        <link href="assets/libs/select2/select2.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css" rel="stylesheet" />
+        <link href="assets/libs/switchery/switchery.min.css" rel="stylesheet" />
+        <link href="assets/libs/bootstrap-timepicker/bootstrap-timepicker.min.css" rel="stylesheet">
+        <link href="assets/libs/bootstrap-colorpicker/bootstrap-colorpicker.min.css" rel="stylesheet">
+        <link href="assets/libs/bootstrap-datepicker/bootstrap-datepicker.css" rel="stylesheet">
+        <link href="assets/libs/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+        <link href="assets/libs/sweetalert2/sweetalert2.min.css" rel="stylesheet" />
+        
+        <!-- Bootstrap Css -->
+        <link href="assets/css/bootstrap.min.css" id="bootstrap-stylesheet" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <!-- App Css-->
+        <link href="assets/css/app.min.css" id="app-stylesheet" rel="stylesheet" type="text/css" />
+
+    <script src="jquery-3.6.0.min.js"></script>
+
+    <script>
+        function BildirimleriSil() {
+            $.ajax({
+                url: "/AJAX.asmx/UserBildirimleriSil",
+                dataType: "json",
+                method: "post",
+                data:{id:'<%=ExternalTrade.Classes.UserData.Id%>'},
+                success: function () {
+                    swal({
+                        title:"İŞLEM TAMAMLANDI",type:"success",text:"Bildirimler Silindi"
+                    }).then(function () { window.location='/Home.aspx'});
+                },
+                error: function (err) {
+                    console.log(err);
+                }
+
+            });
+        }
+        function EnterKeyFilter() {
+            if (window.event.keyCode == 13) {
+                event.returnValue = false;
+                event.cancel = true;
+            }
+        }
+        $(document).ready(function () {
+
+            if (localStorage.getItem("my_app_name_here-quote-scroll") != null) {
+                $(window).scrollTop(localStorage.getItem("my_app_name_here-quote-scroll"));
+            }
+
+            $(window).on("scroll", function () {
+                localStorage.setItem("my_app_name_here-quote-scroll", $(window).scrollTop());
+            });
+
+        });
+    </script>
+
+
+    <script>
+        $(document).keypress(function (e) {
+            if (e.keyCode === 13) {
+                e.preventDefault();
+                return false;
+            }
+        });
+    </script>
+    <script>
+        function YeniTeklif() {
+            swal({
+                title: "İŞLEM TAMAMLANDI", text: "Yeni Teklif Oluşturma İşlemi Tamamlandı", type: "success"
+            }).then(function () { window.location = 'TeklifHazirla.aspx' });
+        }
+    </script>
+    <script>
+        function Iptal() {
+            swal({
+                title: "İŞLEM TAMAMLANDI", text: "Yeni Teklif Oluşturma İşlemi İptal Edildi", type: "error"
+            });
+        }
+    </script>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+</head>
+
+<body data-layout="horizontal" data-topbar="dark">
+    <form id="form1" runat="server">
+
+        <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel">&nbsp;</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div>
+                                                     YENİ TEKLİF OLUŞTURMANIZ SEPETİNİZDEKİ BÜTÜN KAYITLARI SİLECEK.
+                                                </div>
+                                              <div>
+                                                  YİNEDE YENİ TEKLİF OLUŞTURMAK İSTİYOR MUSUNUZ ?
+                                              </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <asp:Button ID="btnYeniTeklif" runat="server" Text="YENİ TEKLİF" CssClass="btn btn-primary" OnClick="btnYeniTeklif_Click"  Height="40px" />
+                                                <asp:Button ID="btnIptal" runat="server" Text="İPTAL"  CssClass="btn btn-danger" OnClick="btnIptal_Click"  />
+                                            
+
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+        <!-- Begin page -->
+        <div id="wrapper">
+
+            <!-- Navigation Bar-->
+            <header id="topnav">
+
+                <!-- Topbar Start -->
+                <div class="navbar-custom">
+                    <div class="container-fluid">
+                        <ul class="list-unstyled topnav-menu float-right mb-0">
+
+                            <li class="dropdown notification-list">
+                                <!-- Mobile menu toggle-->
+                                <a class="navbar-toggle nav-link">
+                                    <div class="lines">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </a>
+                                <!-- End mobile menu toggle-->
+                            </li>
+
+                          
+                            <li class="dropdown notification-list">
+                                <a class="nav-link dropdown-toggle waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                    <i class="fe-bell noti-icon"></i>
+                                    <span class="badge badge-danger rounded-circle noti-icon-badge">
+                                        <asp:Label ID="lblbildirim" runat="server"></asp:Label></span>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right dropdown-lg">
+
+                                    <!-- item-->
+                                    <div class="dropdown-item noti-title">
+                                        <h5 class="m-0">
+                                            <span class="float-right">
+                                                <a href="#" class="text-dark"></a>
+                                            </span>Bildirimler
+                                        </h5>
+                                    </div>
+
+                                    <div class="slimscroll noti-scroll">
+
+                                        <!-- item-->
+                                       <asp:DataList ID="dtbildirim" runat="server">
+                                            <ItemTemplate>
+                                              <a href="javascript:void(0);" class="dropdown-item notify-item active">
+
+
+                                               <a href="<%#Eval("Location") %>&id=<%#Eval("id") %>">
+                                                    <p class="notify-details"><%#Eval("Text") %></p>
+                                                </a>
+                                                <p class="text-muted mb-0 user-msg">
+                                                    <small></small>
+                                             </p>
+                                                </a>
+                                         </ItemTemplate>
+
+                                        </asp:DataList>
+                                        <a href="javascript:void(0);" onclick="BildirimleriSil()">Tüm Bildirimleri Sil</a>
+                                    </div>
+
+                                    <!-- All-->
+                                    <%--     <a href="javascript:void(0);" class="dropdown-item text-center text-primary notify-item notify-all">
+                                        View all
+                                        <i class="fi-arrow-right"></i>
+                                    </a>--%>
+                                </div>
+                            </li>
+
+                            <li class="dropdown notification-list">
+                                <a class="nav-link dropdown-toggle nav-user mr-0 waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                     <img src="../assets/images/logo4.PNG" alt="user-image"  class="rounded-circle">
+                                    <span class="pro-user-name ml-1">
+                                        <asp:LoginName ID="LoginName1" runat="server" />
+                                        <i class="mdi mdi-chevron-down"></i>
+                                    </span>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
+                                    <!-- item-->
+                                    <div class="dropdown-header noti-title">
+                                        <%--<h6 class="text-overflow m-0">Welcome !</h6>--%>
+                                    </div>
+
+                                    <!-- item-->
+                                    <%
+                                        if (ExternalTrade.Classes.UserData.Authority != "User" && ExternalTrade.Classes.UserData.Authority != "Operation")
+                                        {%>
+                                    <a href="Admin/Admin.aspx" class="dropdown-item notify-item">
+                                        <i class="fe-user"></i>
+                                        <span>Admin</span>
+                                    </a>
+                                    <%}    
+                                    %>
+
+
+                                    <!-- item-->
+                                    <a href="Profil.aspx" class="dropdown-item notify-item">
+                                        <i class="fe-settings"></i>
+                                        <span>Profilim</span>
+                                    </a>
+                                    <%
+                                        if (ExternalTrade.Classes.UserData.Authority == "SuperAdmın")
+                                        {%>
+                                    <a href="kullanicilar.aspx" class="dropdown-item notify-item">
+                                        <i class="fe-lock"></i>
+                                        <span>Kullanıcılar</span>
+                                    </a>
+                                    <%}    
+                                    %>
+                                    <!-- item-->
+
+
+                                    <div class="dropdown-divider">
+                                        
+                                    </div>
+
+                                    <!-- item-->
+
+                                    <div style="margin-left:35px;">
+                                         <a href="#" class="dropdown-item notify-item">
+                                       
+                                        <span><asp:LoginStatus ID="loginStatus1" runat="server" LogoutText="Çıkış" ForeColor="Black" /></span>
+                                    </a>
+                                         
+                                    </div>
+                                   
+
+
+                                </div>
+                            </li>
+
+                            <%--   <li class="dropdown notification-list">
+                                <a href="javascript:void(0);" class="nav-link right-bar-toggle waves-effect">
+                                    <i class="fe-settings noti-icon"></i>
+                                </a>
+                            </li>--%>
+                        </ul>
+
+                        <!-- LOGO -->
+                        <div class="logo-box">
+                            <a href="Home.aspx" class="logo logo-light">
+                                <span class="logo-lg">
+                                    <%-- <img src="../assets/images/nigtas.gif" height="88"/>--%>
+                                    <img src="assets/images/logo4.png" alt="" height="88" width="70">
+                                    <%--<img src="assets/nigtas.gif" height="75" />--%>
+                                </span>
+                                <span class="logo-sm">
+                                    <img src="../assets/images/logo4.PNG" height="88" />
+                                </span>
+                            </a>
+                            <a href="index.html" class="logo logo-dark">
+                                <span class="logo-lg">
+                                    <img src="assets/images/logo-dark.png" alt="" height="16">
+                                </span>
+                                <span class="logo-sm">
+                                    <img src="../assets/images/nigtastds.PNG" style="width: 70px; height: 70px" />
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- end container-fluid-->
+                </div>
+                <!-- end Topbar -->
+
+                <div class="topbar-menu">
+                    <div class="container-fluid">
+                        <div id="navigation">
+                            <!-- Navigation Menu-->
+                            <ul class="navigation-menu">
+
+
+                                <%if (ExternalTrade.Classes.UserData.Authority != "Operation")
+                                  {%>
+                                <li class="has-submenu">
+                                    <a href="#"><i class="mdi mdi-invert-colors"></i>TEKLİF HAZIRLA<div class="arrow-down"></div>
+                                    </a>
+                                    <ul class="submenu megamenu">
+
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <a href="TeklifHazirla.aspx">Tekliflerden Devam Et</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="modal" data-target="#staticBackdrop">Yeni Teklif</a>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li class="has-submenu">
+                                    <a href="#">
+                                        <i class="mdi mdi-lifebuoy"></i>RAPORLAMA<div class="arrow-down"></div>
+                                    </a>
+                                    <ul class="submenu">
+
+
+                                        <li>
+                                            <a href="OnayBekleyenTeklifler.aspx">Onay Bekleyen Teklifler</a>
+                                        </li>
+                                        <li>
+                                            <a href="OnaylananTeklifler.aspx">Onaylanan Teklifler</a>
+                                        </li>
+                                        <li>
+                                            <a href="RevizeIstenenTeklifler.aspx">Revize İstenen Teklifler</a>
+                                        </li>
+                                        <li>
+                                            <a href="SatisOnayiBekleyenTeklifler.aspx">Satış Onayı Bekleyen Teklifler</a>
+                                        </li>
+                                        <li>
+                                            <a href="SatisiOnaylananTeklifler.aspx">Satışı Onaylanan Teklifler</a>
+                                        </li>
+                                       <%-- <li>
+                                            <a href="RevizeİstenenSatislar.aspx">Revize İstenen Satışlar</a>
+                                        </li>--%>
+                                        <li>
+                                            <a href="SevkEdilenler.aspx">Sevk Edilenler</a>
+                                        </li>
+                                        <li>
+                                            <a href="sevkRaporu.aspx">Sevk Raporu</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+
+
+
+
+                                <%
+                                      if (ExternalTrade.Classes.UserData.Authority == "Admin" || ExternalTrade.Classes.UserData.Authority == "User")
+                                      {%>
+                                <li class="has-submenu">
+                                    <a href="#">
+                                        <i class="mdi mdi-lifebuoy"></i>PROFORMA<div class="arrow-down"></div>
+                                    </a>
+                                    <ul class="submenu">
+
+                                        <li>
+                                            <a href="ProformaOlustur.aspx">PROFORMA OLUŞTUR</a>
+                                        </li>
+                                        <li>
+                                            <a href="OnayBekleyenProformalar.aspx">ONAY BEKLEYEN PROFORMALAR</a>
+                                        </li>
+                                        <li>
+                                            <a href="RevizeIstenilenProformalar.aspx">REVİZE İSTENİLEN PROFORMALAR</a>
+                                        </li>
+                                        <li>
+                                            <a href="OnaylananProformalar.aspx">ONAYLANAN PROFORMALAR</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <%}
+                                    
+                                %>
+
+
+
+                                <%}
+                                  else if (ExternalTrade.Classes.UserData.Authority == "Operation")
+                                  {%>
+                <li class="has-submenu">
+                                    <a href="#">
+                                        <i class="mdi mdi-lifebuoy"></i>OPERASYON DÖKÜMLERİ<div class="arrow-down"></div>
+                                    </a>
+                                    <ul class="submenu">
+                                        <li>
+
+                                            <a href="OperationProforma.aspx">PROFORMA</a>
+                                            <a href="OperationCommercialInvoice.aspx">COMMERCIAL INVIOCE</a>
+                                            <a href="OperationPackingList.aspx">PACKING LIST</a>
+                                            <a href="OperationKonsimento.aspx">KONŞİMENTO TALİMATI</a>
+
+
+                                            <a href="TumDokumler.aspx">TÜM DÖKÜMLER</a>
+                                            <a href="TamamlanmisDokumler.aspx">TAMAMLANMIŞ DÖKÜMLER</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <%}
+                                %>
+
+                                          <%
+                                              if (ExternalTrade.Classes.UserData.Authority == "User" || ExternalTrade.Classes.UserData.Authority == "Admin")
+                                              {%>
+                                                      <li class="has-submenu">
+                                    <a href="#">
+                                        <i class="mdi mdi-lifebuoy"></i>OPERASYON REALİTE<div class="arrow-down"></div>
+                                    </a>
+                                    <ul class="submenu">
+                                        <li>
+
+                                            <a href="IslemBekleyenler.aspx">İŞLEM BEKLEYENLER SİPARİŞLER</a>
+                                           <%-- <a href="IslemGorenler.aspx">İŞLEM GÖREN SİPARİŞLER</a>--%>
+                                           
+                                        </li>
+                                    </ul>
+                                </li>
+                                              <%}
+                                           %>      
+
+                                <li class="has-submenu">
+                                    <a href="#">
+                                        <i class="mdi mdi-lifebuoy"></i>KOORDİNASYON<div class="arrow-down"></div>
+                                    </a>
+                                    <ul class="submenu">
+
+
+                                        <li>
+                                            <a href="KoordinasyonKonteyner.aspx">KONTEYNER</a>
+                                        </li>
+                                        <li>
+                                            <a href="KoordinasyonAcikGemi.aspx">AÇIK GEMİ</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                            <!-- End navigation menu -->
+
+                            <div class="clearfix"></div>
+                        </div>
+                        <!-- end #navigation -->
+                    </div>
+                    <!-- end container -->
+                </div>
+                <!-- end navbar-custom -->
+
+            </header>
+
+
+            <div class="content-page">
+                <div class="content">
+
+                    <!-- Start Content-->
+                    <div class="container-fluid">
+                        <div class="row">
+                        </div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+
+                    </div>
+                   
+
+                </div>
+                 
+                <!-- content -->
+
+                <!-- Footer Start -->
+                <footer class="footer">
+
+
+                   <strong>
+                <marquee style="color:#3f48cc; font-size: 16px;" >
+<img src="../assets/images/tradetasarim.png" style="background-color:none" />
+                </marquee>
+            </strong>
+                <!-- end Footer -->
+
+            </div>
+
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+
+
+        </div>
+        <!-- END wrapper -->
+
+        <!-- Right Sidebar -->
+
+        <!-- /Right-bar -->
+
+        <!-- Right bar overlay-->
+        <div class="rightbar-overlay"></div>
+
+
+
+        <!-- Vendor js -->
+     <script src="assets/js/vendor.min.js"></script>
+
+        <!-- Plugins Js -->
+        <script src="assets/libs/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
+        <script src="assets/libs/switchery/switchery.min.js"></script>
+        <script src="assets/libs/multiselect/jquery.multi-select.js"></script>
+        <script src="assets/libs/jquery-quicksearch/jquery.quicksearch.min.js"></script>
+
+        <script src="assets/libs/select2/select2.min.js"></script>
+        <script src="assets/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>
+        <script src="assets/libs/jquery-mask-plugin/jquery.mask.min.js"></script>
+        <script src="assets/libs/moment/moment.js"></script>
+        <script src="assets/libs/bootstrap-timepicker/bootstrap-timepicker.min.js"></script>
+        <script src="assets/libs/bootstrap-colorpicker/bootstrap-colorpicker.min.js"></script>
+        <script src="assets/libs/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+        <script src="assets/libs/bootstrap-daterangepicker/daterangepicker.js"></script>
+        <script src="assets/libs/bootstrap-maxlength/bootstrap-maxlength.min.js"></script>
+        <script src="assets/libs/sweetalert2/sweetalert2.min.js"></script>
+        <!-- Init js-->
+        <script src="assets/js/pages/form-advanced.init.js"></script>
+  
+        <!-- App js -->
+        <script src="assets/js/app.min.js"></script>
+    </form>
+</body>
+</html>

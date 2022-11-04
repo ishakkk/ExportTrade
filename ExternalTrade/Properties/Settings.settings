@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ExternalTrade.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SMTP_Addresss" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">system@nigtas.com</Value>
+    </Setting>
+    <Setting Name="SMTP_Port" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">587</Value>
+    </Setting>
+    <Setting Name="SMTP_SenderNAme" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Nigtas Trade</Value>
+    </Setting>
+    <Setting Name="SMTP_UserName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">system@nigtas.com</Value>
+    </Setting>
+    <Setting Name="SMTP_Password" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">3a3c3b</Value>
+    </Setting>
+    <Setting Name="SSL" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SMTP_ConnectionTimeOut" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">60</Value>
+    </Setting>
+    <Setting Name="SMTP_Authenticate" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SMTP_Server" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">mail.nigtas.com</Value>
+    </Setting>
+    <Setting Name="SMS_UserName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">5336768394</Value>
+    </Setting>
+    <Setting Name="SMS_Password" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Nigtas2021*-</Value>
+    </Setting>
+    <Setting Name="SMS_Sender" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NIGTAS</Value>
+    </Setting>
+    <Setting Name="SMS_etkFlag" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

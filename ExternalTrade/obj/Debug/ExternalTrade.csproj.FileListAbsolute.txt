@@ -1,0 +1,135 @@
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\ExternalTrade.dll.config
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\ExternalTrade.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\ExternalTrade.pdb
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\Newtonsoft.Json.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\obj\Debug\ExternalTrade.csprojResolveAssemblyReference.cache
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\obj\Debug\ExternalTrade.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\obj\Debug\ExternalTrade.pdb
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\ClosedXML.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\QRCoder.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\obj\Debug\ExternalTrade.dll.licenses
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\ionic.zip.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\DevExpress.Data.v17.1.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\DevExpress.Printing.v17.1.Core.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\DevExpress.RichEdit.v17.1.Core.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\DevExpress.Utils.v17.1.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\DevExpress.Web.ASPxThemes.v17.1.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\DevExpress.Web.Resources.v17.1.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\DevExpress.Web.v17.1.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\DevExpress.XtraPrinting.v17.1.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\Microsoft.CSharp.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\System.Configuration.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\System.Data.DataSetExtensions.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\System.Data.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\System.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\System.Drawing.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\System.EnterpriseServices.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\System.Web.ApplicationServices.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\System.Web.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\System.Web.Entity.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\System.Web.Extensions.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\System.Web.Services.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\System.Xml.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\System.Xml.Linq.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\DevExpress.Data.v17.1.xml
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\DevExpress.Printing.v17.1.Core.xml
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\DevExpress.RichEdit.v17.1.Core.xml
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\DevExpress.Utils.v17.1.xml
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\DevExpress.Web.v17.1.xml
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\DevExpress.XtraPrinting.v17.1.xml
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\de\DevExpress.Web.Resources.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\es\DevExpress.Web.Resources.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\ja\DevExpress.Web.Resources.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\ru\DevExpress.Web.Resources.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\de\DevExpress.Web.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\es\DevExpress.Web.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\ja\DevExpress.Web.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\ru\DevExpress.Web.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\ExternalTrade\ExternalTrade\bin\System.Web.DynamicData.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\ExternalTrade.dll.config
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\ExternalTrade.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\ExternalTrade.pdb
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\DevExpress.Data.v17.1.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\DevExpress.Printing.v17.1.Core.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\DevExpress.RichEdit.v17.1.Core.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\DevExpress.Utils.v17.1.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\DevExpress.Web.ASPxThemes.v17.1.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\DevExpress.Web.Resources.v17.1.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\DevExpress.Web.v17.1.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\DevExpress.XtraPrinting.v17.1.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\Microsoft.CSharp.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\Newtonsoft.Json.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\System.Configuration.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\System.Data.DataSetExtensions.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\System.Data.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\System.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\System.Drawing.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\System.EnterpriseServices.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\System.Web.ApplicationServices.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\System.Web.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\System.Web.DynamicData.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\System.Web.Entity.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\System.Web.Extensions.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\System.Web.Services.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\System.Xml.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\System.Xml.Linq.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\DevExpress.Data.v17.1.xml
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\DevExpress.Printing.v17.1.Core.xml
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\DevExpress.RichEdit.v17.1.Core.xml
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\DevExpress.Utils.v17.1.xml
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\DevExpress.Web.v17.1.xml
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\DevExpress.XtraPrinting.v17.1.xml
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\de\DevExpress.Web.Resources.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\es\DevExpress.Web.Resources.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\ja\DevExpress.Web.Resources.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\ru\DevExpress.Web.Resources.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\de\DevExpress.Web.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\es\DevExpress.Web.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\ja\DevExpress.Web.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\ru\DevExpress.Web.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\bin\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\obj\Debug\ExternalTrade.csprojResolveAssemblyReference.cache
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\obj\Debug\ExternalTrade.dll.licenses
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\obj\Debug\ExternalTrade.dll
+C:\Users\ishak.guzel\Desktop\TUM PROJELER-12.04.2022\PROJELER\ExternalTrade\ExternalTrade\obj\Debug\ExternalTrade.pdb
